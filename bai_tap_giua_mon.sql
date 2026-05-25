@@ -1,5 +1,5 @@
-CREATE DATABASE bai_tap_giua_mon;
-USE bai_tap_giua_mon;
+CREATE DATABASE construction_management;
+USE construction_management;
 
 CREATE TABLE architect (
     id INT PRIMARY KEY AUTO_INCREMENT ,

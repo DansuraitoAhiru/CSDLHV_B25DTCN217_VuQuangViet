@@ -1,8 +1,8 @@
-CREATE DATABASE baitapgiuamon;
-USE baitapgiuamon;
+CREATE DATABASE bai_tap_giua_mon;
+USE bai_tap_giua_mon;
 
 CREATE TABLE architect (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT PRIMARY KEY AUTO_INCREMENT ,
     name VARCHAR(255),
     birthday INT(4),
     sex TINYINT(1) DEFAULT 0,

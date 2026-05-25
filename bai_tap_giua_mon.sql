@@ -174,9 +174,7 @@ WHERE birthday + 20 > year;
 -- Cách 1
 SELECT *
 FROM worker
-WHERE birthday = 1945
-OR birthday = 1940
-OR birthday = 1948;
+WHERE birthday = 1945 OR birthday = 1940 OR birthday = 1948;
 
 -- Cách 2
 SELECT *
@@ -186,8 +184,7 @@ WHERE birthday IN (1945, 1940, 1948);
 -- cách 1
 SELECT *
 FROM building
-WHERE cost >= 200
-AND cost <= 500;
+WHERE cost >= 200 AND cost <= 500;
 
 -- cách 2
 SELECT *
